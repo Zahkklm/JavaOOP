@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Average Summer House Area: " + service.getAverageSummerHouseArea() + " m²");
         System.out.println("Overall Average Property Area: " + service.getTotalAverageArea() + " m²");
 
-        int filterRooms = 3
+        int filterRooms = 3;
         int filterLivingRooms = 1;
         List<House> filteredHouses = service.filterHousesByRooms(filterRooms, filterLivingRooms);
         System.out.println("\nProperties with " + filterRooms + " rooms and " + filterLivingRooms + " living rooms:");
