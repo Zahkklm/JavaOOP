@@ -1,5 +1,9 @@
 package com.oopexample;
 
+import com.oopexample.model.House;
+import com.oopexample.repository.HouseRepository;
+import com.oopexample.service.HouseService;
+
 import java.util.List;
 
 public class Main {
